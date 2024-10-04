@@ -7,7 +7,7 @@ export const userLogin = (payload: IUserLogin): UserActionTypes => ({
 })
 
 
-export const setUserData = (payload: IUserProfile): UserActionTypes => ({
+export const setUserData = (payload: IUserProfile|any): UserActionTypes => ({
     type: UserActions.SET_USER_DATA,
     payload
 })

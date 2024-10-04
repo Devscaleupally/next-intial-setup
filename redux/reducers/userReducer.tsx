@@ -35,6 +35,7 @@ const initialState: IUser = {
         token: ""
     },
     isVerifyAuthValue: 0,
+    otpStatus: undefined
 };
 
 export default function userReducer(state = initialState, action: UserActionTypes): IUser {
