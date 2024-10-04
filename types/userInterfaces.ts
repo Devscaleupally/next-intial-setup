@@ -1,5 +1,5 @@
 export interface IUser {
-  user: IUserProfile;
+  user: IUserProfile |any;
   userHistory: IUserHistory[];
   bookmarksData: IUserBookmarks[];
   isAuthProcessing: boolean;
@@ -7,7 +7,7 @@ export interface IUser {
   languageList: ILanguageList[];
   selectedLanguage: ISelectedLanguage;
   selectedTab: ISelectedTab;
-  otpStatus: IOtpStatus;
+  otpStatus: IOtpStatus |any;
   sendOtpLoader: boolean;
   setPaymentLinkLoader: boolean;
   isEmailUnsubscribed : any;

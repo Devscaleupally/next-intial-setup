@@ -1,0 +1,9 @@
+// Buttons styling
+.btn-primary {
+   @apply inline-flex items-center rounded-lg justify-center px-4 py-2 text-primary-light bg-primary hover:bg-primary-light hover:text-dark font-bold cursor-pointer;
+   border-width: 1px;
+}
+.btn-primary-sm {
+   @apply inline-flex items-center h-11 justify-center px-4 py-2 bg-blue hover:bg-gray-dark ;
+   border-width: 1px;
+}
